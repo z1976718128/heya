@@ -1548,7 +1548,7 @@ h6 small {
 h1,
 h2,
 h3 {
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 	margin-bottom: 10px
 }
 
@@ -1623,7 +1623,7 @@ h6 {
 }
 
 p {
-	margin: 0 0 10px
+	/*margin: 0 0 10px*/
 }
 
 .lead {
@@ -4824,8 +4824,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav .open>a,
 .nav .open>a:focus,
 .nav .open>a:hover {
-	background-color: #eee;
-	border-color: #337ab7
+	/*background-color: #eee;
+	border-color: #337ab7*/
 }
 
 .nav .nav-divider {
@@ -5077,7 +5077,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .navbar-fixed-bottom .navbar-collapse,
 .navbar-fixed-top .navbar-collapse {
-	max-height: 340px
+	max-height:1000px
 }
 
 @media (max-device-width:480px) and (orientation:landscape) {
@@ -5505,8 +5505,8 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 }
 
 .navbar-inverse {
-	background-color: #222;
-	border-color: #080808
+	background-color: #f7f7f5;
+	/*border-color: #080808*/
 }
 
 .navbar-inverse .navbar-brand {
@@ -5524,13 +5524,14 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-	color: #9d9d9d
+	color: #494949;
+	font-size: 18px;
 }
 
 .navbar-inverse .navbar-nav>li>a:focus,
 .navbar-inverse .navbar-nav>li>a:hover {
-	color: #fff;
-	background-color: transparent
+	/*color: #fff;
+	background-color: transparent*/
 }
 
 .navbar-inverse .navbar-nav>.active>a,
@@ -5548,16 +5549,16 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 }
 
 .navbar-inverse .navbar-toggle {
-	border-color: #333
+	/*border-color: #333*/
 }
 
 .navbar-inverse .navbar-toggle:focus,
 .navbar-inverse .navbar-toggle:hover {
-	background-color: #333
+	/*background-color: #333*/
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
-	background-color: #fff
+	background-color: #CAA68E
 }
 
 .navbar-inverse .navbar-collapse,
@@ -5568,8 +5569,8 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 .navbar-inverse .navbar-nav>.open>a,
 .navbar-inverse .navbar-nav>.open>a:focus,
 .navbar-inverse .navbar-nav>.open>a:hover {
-	color: #fff;
-	background-color: #080808
+	/*color: #fff;
+	background-color: #080808*/
 }
 
 @media (max-width:767px) {
@@ -7624,8 +7625,8 @@ button.close {
 
 .carousel-indicators {
 	position: absolute;
-	bottom: 10px;
-	left: 50%;
+	bottom: 32px;
+	left: 23%;
 	z-index: 15;
 	width: 60%;
 	padding-left: 0;
@@ -7636,21 +7637,20 @@ button.close {
 
 .carousel-indicators li {
 	display: inline-block;
-	width: 10px;
-	height: 10px;
-	margin: 1px;
+	width: 14px;
+	height: 14px;
+	margin:0 18px;
 	text-indent: -999px;
 	cursor: pointer;
 	background-color: #000\9;
-	background-color: rgba(0, 0, 0, 0);
+	background-color:#fff;
 	border: 1px solid #fff;
 	border-radius: 10px
 }
 
 .carousel-indicators .active {
-	width: 12px;
-	height: 12px;
-	margin: 0;
+	width: 16px;
+	height: 16px;
 	background-color: #fff
 }
 
