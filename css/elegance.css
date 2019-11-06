@@ -1,0 +1,13 @@
+/* body{
+    height: 4000px;
+} */
+.carousel-indicators{
+    display: none;
+}
+.ajz{
+    height: 240px;
+    margin-bottom: 20px;
+}
+.ajz img{
+    width: 100%;
+}

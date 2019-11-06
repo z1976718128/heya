@@ -1,0 +1,80 @@
+.mrsp{
+	margin-top: 135px;
+}
+.ylyu{
+	width:100px;
+	height:30px;
+	text-align: center;
+	border-radius:11px;
+	line-height: 30px;
+	background: #CAA68E;
+	color: #fff;
+}
+.bjs{
+	width:450px;
+	font-size:16px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgba(102,102,102,1);
+	line-height:30px;
+	margin-bottom: 33px;
+}
+.yundongs{
+	font-size: 20px;
+	margin:33px 0;
+	color: #333;
+}
+.titles{
+	font-size: 16px;
+	color: #454F66;
+}
+.msg_img img{
+	width: 100%;
+
+}
+.kps{
+	width:262px;
+	margin-top: 10px;
+	color: #333;
+	margin-bottom: 20px;
+}
+.xq{
+	text-align: center;
+	margin-left: 0 !important;
+}
+.ydivs{
+position: relative;
+margin:30px 0 ;
+}
+.anlis{
+	position: absolute;
+	top: 60px;
+	right: 50px;
+}
+.anlis p:first-child{
+	color: #333;
+	font-size: 16px;
+}
+.anlis p:nth-child(2){
+	color: #999;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.anlis p:nth-child(3){
+	width: 430px;
+	color: #666;
+	font-size: 16px;
+	margin:20px 0;
+
+}
+.kpt{
+	border-bottom: 1px solid #D6D6D6;
+	margin-bottom: 20px;
+}
+.kpsj{
+	width: 262px;
+    margin-top: 10px;
+    color: #333;
+	border-bottom: 1px solid #D6D6D6;
+	padding-bottom: 20px;
+}
