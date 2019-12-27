@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>在线预约</title>
+		<link rel="stylesheet" type="text/css" href=" css/index.css?v=1.1" />
+		<link rel="stylesheet" type="text/css" href=" css/reset.css" />
+		<link rel="stylesheet" type="text/css" href=" css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href=" css/info.css?v=1.1" />
+	</head>
+
+	<body>
+		<div class="container pb shodo">
+			<div class="row">
+				<div class="col-md-6">
+					<img class="left_bg img-responsive"  src=" img/info/bg.png" />
+				</div>
+				<div class="col-md-6">
+					<h3 class="ca mr">在线预约</h3>
+					<h3 class="fbt">NATIONAL DEFENSE HOSPITAL</h3>
+					<p class="yuan mrb"><span></span></p>
+					<!--from-->
+					<form action="{:url('Index/Info/info')}" method="post"  id="myform" class="form-horizontal" >
+						
+						<div class="form-group">
+							<div class="row">
+								<label for="inputEmail3" class="col-sm-2 col-md-3 control-label">姓名：</label>
+								<div class="col-sm-8 col-lg-4">
+									<input type="text" class="form-control" name="user" id="user" placeholder="请输入真实姓名">
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="inputPassword3" class="col-sm-2 col-md-3 control-label">联系电话：</label>
+							<div class="col-sm-8">
+								<input type="text" class="form-control" name="phone" id="phone" placeholder="请输入手机号码">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="inputPassword3" class="col-sm-2 col-md-3 control-label">预约时间：</label>
+							<div class="col-sm-8 ddw">
+								<input type="text" class="form-control times" name="times" id="test1" readonly placeholder="每项目1人/小时 ">
+								<img class="rili_img" src=" img/info/rili.png" />
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="inputPassword3" class="col-sm-2 col-md-3 control-label">类别：</label>
+							<div class="col-sm-8">
+								<ul class="info_ul">
+									<li name="type" class="activei">淋巴水肿</li>
+									<li>孕产康复</li>
+									<li>运动损伤</li>
+									<li>脊柱侧弯</li>
+								</ul>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="inputPassword3" class="col-sm-2 col-md-3 control-label">预约项目：</label>
+							<ul class="s_ul">
+								<li>康复治疗</li>
+								<li>作业治疗</li>
+								<li class="activei">心里治疗</li>
+							</ul>
+						</div>
+						<div class="form-group ca">
+							<button  type="submit"  class="btn btn-default btn-lg bt">提交预约</button>
+						</div>
+					</form>
+					<!--from-->
+				</div>
+			</div>
+			<!--底部-->
+			<div class="row tp">
+				<div class="col-md-3">
+					<img src=" img/info/hy_logo.png" />
+				</div>
+				<div class="col-md-6">
+					<p>联系电话：0755-2691 0136</p>
+					<p>医院地址：深圳市龙华区民治街道民乐社区星河 WORLD 二期 E 栋10楼和雅医疗</p>
+				</div>
+				<div class="col-md-3 mr_img">
+					<img src=" img/info/hy_ewm.png" />
+					<img src=" img/info/hy_ewm.png" />
+				</div>
+				<!--底部-->
+			</div>
+		</div>
+		<script src=" js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src=" js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src=" js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src=" laydate/laydate.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			lay('#version').html('-v' + laydate.v);
+			//执行一个laydate实例
+			laydate.render({
+				elem: '#test1', //指定元素
+				type: "datetime",
+				min: 1, //1天后
+				max: 7, //1天后
+				zIndex: 99999999,
+				btns: ['clear', 'confirm'],
+				theme: '#393D49',
+
+			});
+			
+		</script>
+	</body>
+
+</html>

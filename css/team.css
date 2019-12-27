@@ -1,0 +1,36 @@
+.ys_itemsd{
+	/* width: 1200px; */
+	height: 396px;
+	background: #fff;
+	margin-bottom:60px;
+}
+.ys_yang{
+	position: relative;
+	left: -15px;
+}
+.ys_bosj{
+	display: inline-block;
+	text-align: left;
+	margin-right: 135px;
+}
+.ys_bosj li{
+	margin:10px 0;
+}
+.ys_bosj li a{
+	color: #5e5e5e;
+}
+.ys_namse{
+	margin:37px 0 30px 0; 
+	color: #CAA68E;
+}
+.ys_namse span:first-of-type{
+	font-size:18px;
+	font-weight:bold;
+}
+#bans{
+	width: 100%;
+	height: 464px;
+	background-size: contain;
+	margin-top: 79px;
+	background: url(../img/home/ystds.png)no-repeat left;
+}

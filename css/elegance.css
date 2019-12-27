@@ -5,9 +5,56 @@
     display: none;
 }
 .ajz{
-    height: 240px;
-    margin-bottom: 20px;
+    height:292px;
+    background: #fff;
+    text-align: left;
+}
+.yuanr{
+	text-align: left;
+}
+.jz_title{
+	margin-top:50px;
 }
 .ajz img{
-    width: 100%;
+    width: 668px;
+    height: 292px;
+}
+.pc_imgBox{
+	height: 462px !important;
+}
+.wt{
+	background: #fff;
+}
+.sr{
+	position: relative;
+	left: -15px;
+}
+@media only screen and (max-width:750px){
+    .ajz{
+        /* margin-top: 80px; */
+        /* background: red; */
+    }
+    .ajz .spone{
+        width: 350px;
+        height: 35px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .mrb{
+        margin-bottom:10px;
+    }
+    .jz_title{
+        margin-top: 10px;
+    }
+    .ajz{
+        margin-bottom: 70px;
+    }
+    .center,.container {
+        margin-top: 0 !important;
+    }
+    .h_zi{
+        font-size: 15px;
+    }
+    
 }

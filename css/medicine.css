@@ -78,3 +78,31 @@ margin:30px 0 ;
 	border-bottom: 1px solid #D6D6D6;
 	padding-bottom: 20px;
 }
+@media only screen and (max-width:750px){
+	.anlis{
+		position: unset;
+		 width: 342px;
+		height: auto;
+        /* overflow: hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap; */
+	}
+	.anlis p:nth-child(1){
+		width: 342px;
+		font-size: 15px;
+		margin-top: 10px;
+	}
+	.anlis p:nth-child(3){
+		width: 342px;
+	}
+	.bjs{
+		width: 345px;
+		height: auto;
+	}
+	.yundongs{
+		margin:20px 0;
+	}
+	.mrsp{
+		margin-top: 110px;
+	}
+}	
